@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(600, 600);
+  background (30)
+}
+
+function draw() {
+ 
+  stroke (5)
+  fill(90)
+  
+  //console.log (mouseIsPressed)
+  
+  if (mouseIsPressed)
+rect(mouseX,mouseY,20,35)
+  
+}
